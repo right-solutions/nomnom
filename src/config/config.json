@@ -1,0 +1,42 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": null,
+    "database": "node_api_learning",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "development-heroku": {
+    "username": "postgres",
+    "password": "4779eedddc2ad21c82219fcf6e920712a53a61a22752bf05a173f38cb235e522",
+    "database": "d554j3prifaaoa",
+    "host": "ec2-107-20-153-39.compute-1.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": null,
+    "database": "node_api_learning_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "postgres",
+    "password": "4779eedddc2ad21c82219fcf6e920712a53a61a22752bf05a173f38cb235e522",
+    "database": "d554j3prifaaoa",
+    "host": "ec2-107-20-153-39.compute-1.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": { 
+        "rejectUnauthorized": false
+      }
+    },
+    "operatorsAliases": false,
+    "use_env_variable_bck": "DATABASE_URL"
+  }
+}
